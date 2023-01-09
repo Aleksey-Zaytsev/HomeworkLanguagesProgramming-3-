@@ -12,10 +12,10 @@ else if ((number < 100000)&&(number > 9999))
    int result2 = number % 10;
    if (result1 == result2)
    {
-    Console.WriteLine ("Число является ли палиндромом");
+    Console.WriteLine ("Число является палиндромом");
    }
    else
    {
-    Console.WriteLine ("Число не является ли палиндромом");
+    Console.WriteLine ("Число не является палиндромом");
    }
 }
